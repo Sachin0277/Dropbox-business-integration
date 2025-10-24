@@ -37,12 +37,14 @@ This is a Spring Boot project to fetch Dropbox Business team members using admin
 ## Project Structure
 
 src/main/java/com/example/dropbox/
-├── auth/ # Optional class to generate access token manually
-├── controller/ # REST controllers
-├── service/ # Services to call Dropbox API
-├── model/ # Optional DTOs or response models
+├── auth/        # Optional class to generate access token manually
+├── controller/  # REST controllers
+├── service/     # Services to call Dropbox API
+├── model/       # Optional DTOs or response models
+
 src/main/resources/
 ├── application.properties
+
 
 ## Configuration
 
